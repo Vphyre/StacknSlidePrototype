@@ -37,12 +37,12 @@ public class Controller : MonoBehaviour, IPointerDownHandler, IPointerUpHandler
         {
             if(Input.mousePosition.x>lastControllerPoint)
             {
-                PlayerBehaviour.controllerX= 4.5f;
+                PlayerBehaviour.controllerX= 40f;
                 lastControllerPoint = Input.mousePosition.x;
             }
             else if(Input.mousePosition.x<lastControllerPoint)
             {
-                PlayerBehaviour.controllerX=(-4.5f);
+                PlayerBehaviour.controllerX=(-40f);
                 lastControllerPoint = Input.mousePosition.x;
             }
             else

@@ -1,0 +1,9 @@
+.vs
+Library
+Temp
+*.apk
+*.csproj
+*.sln
+/build
+/.vscode
+/projectName_Data
